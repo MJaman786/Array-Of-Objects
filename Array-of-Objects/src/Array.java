@@ -16,8 +16,8 @@ public class Array{
             System.out.print("Enter ID = ");
             String someId = sc.next();
             System.out.println();
-            obj[i] = new Array();
-            obj[i].setdata(someName, someId);
+            obj[i] = new Array(); //initialize every objects in array
+            obj[i].setdata(someName, someId);//Otherwise it will give you null pointer Exception
         }
     }
 
